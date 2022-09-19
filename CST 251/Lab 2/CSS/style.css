@@ -1,0 +1,69 @@
+  body{
+      background-image: url(https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026_1280.jpg);
+      Background-repeat: repeat;
+      Background-size: auto;
+
+          }
+
+      h1 {
+        background-color: #050a52;
+        color:  white;
+        text-align: center;
+        padding: 15px;
+        border-bottom: 10px solid red;
+        margin: 0 auto;
+        width: 75%;
+        font-size: 2rem;
+        font-family: 'Sofia' ;
+
+
+        
+
+      }
+
+    img{
+        border: 4px solid black;
+        border-radius: 50px;
+        max-width: 100%;
+        height: auto;
+
+      }
+
+    main {
+        background-color: rgba(5, 10, 82,.3);
+        padding: 20px;
+        margin: 0 auto;
+        width: 75%;
+        font-size: 1.5rem;
+      }
+
+     a {
+        color: blue;
+
+      }
+
+    ul {
+        color: blue;
+      }
+
+    p {
+      Color: black;
+      text-align: center;
+    }
+
+    label{
+      color: white;
+    }
+
+    legend{
+      color: yellow;
+    }
+
+    button{
+      border: 3px solid black;
+      border-radius: 20px;
+    }
+
+    #text{
+      color: white;
+    }

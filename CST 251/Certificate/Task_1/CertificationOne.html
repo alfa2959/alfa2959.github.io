@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+ <title>Diego's Records Survey</title>
+
+<style>
+
+    body{
+
+      background-image: url(https://images.pexels.com/photos/6875119/pexels-photo-6875119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      padding: 15px;
+      background-color: black;
+      width: 30%;
+ 
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+      background-image: url('linkto/images/transparent.png');
+  background-repeat: repeat;
+
+    }
+    main {
+      text-align: center;
+      padding: 15px;
+      color: white;
+      font-weight: bold;
+
+    }
+    
+  
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+<main>
+ <h1 id="title">Diego's Records Survey
+ </h1>
+ <p id="description"> Thank you for      
+   viewing this survey </p>
+    <form id="survey-form">
+      <label for="name" id="name-label"> Name </
+      label>
+      <input type="text" 
+       id="name" required   
+      placeholder="Enter your name"
+    </form>
+<br>
+    <label for="email" id="email-label"> Email 
+      <label>
+    <input type="email" 
+     id="email" required 
+     placeholder="Enter your email"
+    </form>
+<br>
+    <label for="number" id="number-label"> Age </label>
+    <input type="number" 
+     id="number" required 
+     placeholder="Enter your age"
+     min="16" max="99"
+    </form>
+<br>
+    <label for="dropdown"> What 
+      record player do you own?    
+       </label>
+      <select name="dropdown" 
+        id="dropdown">
+          <option value="Crosley"> 
+            Crosley </option>
+          <option value="Audio-Technica"> 
+            Audio-Tachnica </option>
+          <option value="Victrola"> 
+            Victrola </option>
+          <option value="Other"> Other 
+            </option>
+        </select>
+<br>
+    <label for="radio"> Do you collect vinyl records?    
+       </label>
+<br>
+    <label for="yes">
+                <input type="radio"
+                       id="yes" value="yes"
+                       name="no">Yes</input>
+                        </label>
+    <label for="no">
+      <input type="radio"
+              id="no" value="no"
+              name="no">No</input>
+                        </label>
+<br>
+    <label for="checkbox"> What type of vinyl   
+      records do you like? 
+      </label>
+  <br>
+    <input type="checkbox" name="boxes"          
+            value="12 inch"> 12 inch
+    <input type="checkbox" name="boxes"          
+            value="7 inch"> 7 inch
+    <input type="checkbox" name="boxes"          
+            value="10 inch"> 10 inch
+<br>
+    <textarea name="comments" cols="30"   rows="5" placeholder="Any comments or questions?"></textarea>
+
+<input type="submit" id="submit">
+
+
+
+</form>
+</main>
+
+</body>
+</html>
+
