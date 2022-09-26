@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+    text-align: center;
+	background-color:#eab676;
+	padding: 30px;
+	 
+  }
+	
+	main{
+		background-color:bisque;
+		
+		padding-top: 0.5px;
+		padding-bottom: 0.5px;
+		border-radius: 50px;
+	}
+	
+	h1{
+		background-color:lightgrey;
+		border-radius: 50px;
+		margin-left: 30px;
+		margin-right: 20px;	
+	}
+ 
+	ul{
+		list-style-position: inside;
+		line-height: 2.5;	
+	}
+  
+
+   	img {
+   		display: block;
+		background: beige;
+		max-width: 100%;
+		height: auto;
+		border-radius: 50px;
+	 }
+	
+	#img-caption{
+		background: beige;
+	    
+		border-radius: 50px;
+		width: 100%
+		
+	}
+	#quote{
+		font-style:italic
+	}
+  }
+
