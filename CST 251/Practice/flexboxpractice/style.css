@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+		.row{
+			display: flex;
+			flex-direction:row;
+			justify-content: space-evenly;
+			
+		}
+		
+		.text{
+			background-color: lightpink;
+			padding: 20px;
+			border-radius: 20%;
+			text-align:center;
+			
+		}
+		
+	
+		
+					
+		body{
+			background-color: antiquewhite;
+			
+		}
+		
+		h2{
+			background-color: cornflowerblue;
+			border-radius: 89%;
+		}
+		
+		
