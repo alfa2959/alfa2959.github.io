@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+body, html{
+text-align: center;
+    height: 100%;
+  width: 100%;
+  background-color:beige;
+  
+}
+.nav{
+ display: flex;
+justify-content:flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:#af7c74;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  color:white;
+  
+
+}
+
+ul, li{
+  list-style:none;
+  display:flex;
+  margin:10px;
+  font-size:1.3rem;
+}
+
+#welcome-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color:beige;
+}
+
+h1{
+  font-size:4rem;
+}
+
+.project-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.project-image{
+  width:100%;
+  height:auto;
+}
+
+#projects{
+  background-color:#C4A484;
+  padding-bottom:20px;
+
+}
+
+.projectContainer{
+  background-color:beige;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  text-align:center;
+  border-radius:5%;
+}
+
+h2{
+  padding-top:20px;
+  font-size:1.8rem;
+  
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+.project-tile{
+  
+  text-align:center;
+
+}
+
+#about-me{
+  background-color:beige;
+  padding-bottom:30px;
+}
+
+#profile-link{
+  color:C4A484;
+}
+
+#chinese{
+  padding-top:10%;
+}
+#zodiac{
+  padding-top:10%;
+}
+
+@media(max-width:775px){
+  .projectContainer{
+    text-align:center;
+  }
+}
